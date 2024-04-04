@@ -43,5 +43,7 @@ void LinearSearch()
 		cout << "\nEnter the elemnt you want to search : "; //step 1
 		cin >> item;
 
+		ctr = 0;
+
 	} while ((ch == 'y') || (ch == 'Y'))
 }
