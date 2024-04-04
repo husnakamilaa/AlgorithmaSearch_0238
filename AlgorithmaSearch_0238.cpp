@@ -44,6 +44,7 @@ void LinearSearch()
 		cin >> item;
 
 		ctr = 0;
+		i = 0;
 
 	} while ((ch == 'y') || (ch == 'Y'))
 }
