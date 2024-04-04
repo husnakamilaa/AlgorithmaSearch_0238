@@ -4,9 +4,9 @@
 #include <iostream>
 using namespace std;
 
-int arr[20];
-int n;
-int i;
+int arr[20]; //Array to be searched
+int n; //Number of elements in the array
+int i; //index of array element
 
 void input()
 {
@@ -19,6 +19,8 @@ void input()
 		else
 			cout << "\nArray shoould have minimum 1 and maximum 20 elements.\n\n";
 	}
+
+	//Accept array elements
 	cout << "\n------------------\n";
 	cout << "Enter array elements \n";
 	cout << "\n------------------\n";
@@ -32,6 +34,6 @@ void input()
 void LinearSearch()
 {
 	char ch;
-	int ctr;
+	int ctr; //Number of comparison
 	int item;
 }
