@@ -55,6 +55,7 @@ void LinearSearch()
 			}
 			i++; //step 4
 		}
-
-	} while ((ch == 'y') || (ch == 'Y'))
+		if (i == n) //step 5
+			cout << "\n" << item << " not found in the array\n";
+	} while ((ch == 'y') || (ch == 'Y'));
 }
